@@ -17,6 +17,6 @@ add_subdirectory(thirdparty)
 add_executable(${PROJECT_NAME} src/main.cpp ${PROTO_SRCS} ${PROTO_HDRS})
 
 target_link_libraries(${PROJECT_NAME}
-    mysqlx-connector
     ${Protobuf_LIBRARIES}
+    mysqlx-connector
 )

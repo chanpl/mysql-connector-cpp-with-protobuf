@@ -1,6 +1,6 @@
 #include <iostream>
 
-// #include <mysqlx/xdevapi.h>
+#include <mysqlx/xdevapi.h>
 
 #include "foo.pb.h"
 
